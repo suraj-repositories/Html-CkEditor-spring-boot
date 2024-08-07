@@ -20,7 +20,7 @@ Important Links :
 ```html
     <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/42.0.1/ckeditor5.css" />
 ```
-2. Add the javascript needed (Make sure to paste the code in html or php files not on js file)
+2. Add the javascript needed (Make sure to paste the code in html files not on js file)
 
 ```html
 <script type="importmap">
