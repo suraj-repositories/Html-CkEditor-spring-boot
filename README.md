@@ -3,7 +3,7 @@
 CKEditor is a WYSIWYG rich text editor which enables writing content directly inside of web pages or online applications.<br />
 
 Important Links : 
-- [MARKDOWN-OUTPUT CKEditor Repository](https://github.com/suraj-repositories/Markdown-CKEditor-laravel-10)
+- [MARKDOWN-OUTPUT CKEditor Repository](https://github.com/suraj-repositories/Markdown-CkEditor-spring-boot)
 - [Ck Editor 5 download/cdn/npm](https://ckeditor.com/ckeditor-5/download/#zip)
 - [Official Website](https://ckeditor.com/)
 
