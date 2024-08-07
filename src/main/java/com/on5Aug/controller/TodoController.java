@@ -54,16 +54,8 @@ public class TodoController {
 
 
 	@PutMapping("/save")
-	public String saveTodo(@ModelAttribute Todo todo,Model model, BindingResult bindingResult,  HttpServletRequest request, RedirectAttributes redirectAttributes) {
+	public String saveTodo(@ModelAttribute Todo todo,Model model, HttpServletRequest request, RedirectAttributes redirectAttributes) {
 
-		
-		  if (bindingResult.hasErrors()) {
-		        model.addAttribute("todos", service.getAllTodos());
-		        model.addAttribute("todo", todo); // Use the existing object with errors
-		        return "todos-cdn"; // Replace with the actual name of your form view
-		    }
-
-		
 		todo.setDescription(HtmlSanitizer.sanitize(todo.getDescription())); // sanitizing the input
 	    service.saveTodo(todo);
 
