@@ -55,7 +55,6 @@ public class TodoController {
 
 	@PutMapping("/save")
 	public String saveTodo(@ModelAttribute Todo todo,Model model, HttpServletRequest request, RedirectAttributes redirectAttributes) {
-
 		todo.setDescription(HtmlSanitizer.sanitize(todo.getDescription())); // sanitizing the input
 	    service.saveTodo(todo);
 
